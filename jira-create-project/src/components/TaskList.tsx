@@ -7,7 +7,7 @@ const TaskList = ({ tasks , onDelete, onUpdate }) => {
       {tasks.map((task, index) => {
         return (
           <TaskShow
-            key={index}
+            key={index} 
             task={task}
             onDelete={onDelete}
             onUpdate={onUpdate} 
