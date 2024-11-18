@@ -1,0 +1,139 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+.task-update {
+  width: 100%;
+} 
+
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.task-label{
+  margin: 10px 0px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+.task-button {
+  margin: 10px 0px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+.task-update-button{
+  background-color:purple;
+  color:white;
+  border: none;
+  border-radius: 20px;
+
+}
+
+.task-list  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-show {
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.task-title{
+  margin-bottom: 5px;
+}
+
+.button-delete {
+ padding: 5px;
+ font-size: 15px;
+ width: 60px;
+ border: none;
+ border-radius: 30px;
+ background-color: red;
+ color: white;
+ margin-right: 15px;
+  
+}
+
+.button-update {
+ padding: 10px;
+ font-size: 15px;
+ width: 100px;
+ border: none;
+ border-radius: 30px;
+ background-color: green;
+ color: white;
+
+  
+}
+
