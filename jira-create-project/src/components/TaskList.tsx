@@ -10,7 +10,7 @@ const TaskList = ({ tasks , onDelete, onUpdate }) => {
             key={index}
             task={task}
             onDelete={onDelete}
-            onUpdate={onUpdate}
+            onUpdate={onUpdate} 
           ></TaskShow>
         );
       })}
