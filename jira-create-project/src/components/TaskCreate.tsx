@@ -50,7 +50,6 @@ const TaskCreate = ({ onCreate, task, taskformUpdate, onUpdate }: any) => {
             ></textarea>
             <button
               className="task-button task-update-button"
-              onC
               onClick={handleSubmit}
             >
               Düzenle
